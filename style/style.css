@@ -15,6 +15,7 @@ body{
 	background-color: #333333;
 	width: 40%;
 	border-radius: 10px;
+	min-width: 400px;
 }
 #menu ul li{
 	float: left;
@@ -47,8 +48,8 @@ body{
 	border-color: #2222aa;
 	padding:0;
 	border-radius: 10px;
+	min-width: 400px;
 }
-
 .contentitem{
 	margin: auto;
 	background-color: #eeeeee;
@@ -62,11 +63,9 @@ body{
 .contentitem:hover{
 	background-color: #9999ef;
 }
-
 .contentitem a h3{
 	margin: 0;
 }
-
 img{
 	margin:auto;
 	width:100%;

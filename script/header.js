@@ -18,6 +18,8 @@ function readTextFile(file)
     return rawFile.responseText;
 }
 
+// alert(window.outerHeight);
+
 
 var head = 
 	"<meta name='viewport' content='width=device-width, initial-sclae=1.0'/>" +
@@ -25,7 +27,7 @@ var head =
 	"<title>" + title + "</title>"+
 	"<link rel='icon' href='image/icon.png'/>";
 
-if(screen.width <= screen.height){
+if(window.outerWidth <= window.outerHeight){
 	head += "<link rel='stylesheet' type='text/css' href='style/styleMobile.css'/>";
 }
 

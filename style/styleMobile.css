@@ -1,3 +1,8 @@
-#menu{
+#content{
 	width: 100%;
+	min-width: 0;
+}
+#menu ul{
+	width:100%;
+	min-width: 0;
 }
