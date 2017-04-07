@@ -1,0 +1,7 @@
+{
+	"content":[
+		{"platform": "pc", "name":"SwingText", "version":"001", "url":"repository/SwingText.jar"},
+		{"platform": "pc", "name":"SwingChat", "version":"001", "url":"repository/SwingChat.jar"},
+		{"platform": "android", "name":"TestVibration", "version":"001", "url":"repository/TestVibration.apk"}
+	]
+}
