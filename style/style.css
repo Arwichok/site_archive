@@ -1,8 +1,20 @@
-body{
-	background-color: #ccc;
-	margin:0;
+html{
+	overflow: -moz-scrollbars-vertical;
+	overflow-y: scroll;
 }
 
+body{
+	
+	background: #aaa url("../image/background.jpg") no-repeat fixed center;
+	background-size: 100% 100%;
+	margin:0;
+	margin-bottom: 10px;
+}
+
+#body{
+	width:40%;
+	margin:auto;
+}
 #menu{
 	padding-top:10px;
 	padding-bottom: 10px;
@@ -13,9 +25,8 @@ body{
 	padding:0;
 	overflow:hidden;
 	background-color: #333333;
-	width: 40%;
 	border-radius: 10px;
-	min-width: 400px;
+	min-width: 400px; 
 }
 #menu ul li{
 	float: left;
@@ -42,26 +53,28 @@ body{
 }
 #content{
 	margin: auto;
-	width: 40%;
-	background-color: #eeeeee;
-	border: 0px solid blue;
-	border-color: #2222aa;
+	/*background-color: #eeeeee;*/
+	border-color: #2255aa;
 	padding:0;
-	border-radius: 10px;
+	border-radius: 11px;
 	min-width: 400px;
+
 }
 .contentitem{
 	margin: auto;
+	margin-bottom: 10px;
 	background-color: #eeeeee;
 	border: 0px solid blue;
 	padding-top: 5px;
-	padding-bottom:0px;
-	padding-right: 20px;
-	padding-left: 20px;
+	padding-bottom:5px;
+	padding-right: 10px;
+	padding-left: 10px;
 	border-radius: 10px;
+	opacity:.8;
 }
 .contentitem:hover{
-	background-color: #9999ef;
+	background-color:  #2bc671;
+	opacity: 1;
 }
 .contentitem a h3{
 	margin: 0;
@@ -69,6 +82,8 @@ body{
 img{
 	margin:auto;
 	width:100%;
+	border-radius: 8px;
+	
 }
 
 
