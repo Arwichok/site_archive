@@ -5,15 +5,18 @@ html{
 
 body{
 	
-	background: #aaa url("../image/background.jpg") no-repeat fixed center;
-	background-size: 100% 100%;
+	/*background: #add url("../image/background.jpg") no-repeat fixed center;*/
+	/*background-size: 100% 100%;*/
+	background-color: #F9F2D7;
 	margin:0;
 	margin-bottom: 10px;
 }
 
 #body{
-	width:40%;
+	/*width:40%;*/
 	margin:auto;
+	max-width: 500px;
+
 }
 #menu{
 	padding-top:10px;
@@ -26,7 +29,7 @@ body{
 	overflow:hidden;
 	background-color: #333333;
 	border-radius: 10px;
-	min-width: 400px; 
+	/*min-width: 400px; */
 }
 #menu ul li{
 	float: left;
@@ -57,7 +60,7 @@ body{
 	border-color: #2255aa;
 	padding:0;
 	border-radius: 11px;
-	min-width: 400px;
+	/*min-width: 400px;*/
 
 }
 .contentitem{
@@ -70,7 +73,6 @@ body{
 	padding-right: 10px;
 	padding-left: 10px;
 	border-radius: 10px;
-	opacity:.8;
 }
 .contentitem:hover{
 	background-color:  #2bc671;
@@ -83,7 +85,6 @@ img{
 	margin:auto;
 	width:100%;
 	border-radius: 8px;
-	
 }
 
 

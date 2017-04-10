@@ -6,27 +6,36 @@ function readTextFile(file)
     return rawFile.responseText;
 }
 
-var head = 
-	"<meta name='viewport' content='width=device-width, initial-sclae=1.0'/>" +
-	"<link rel='stylesheet' type='text/css' href='style/style.css'/>" +
-	"<title>" + title + "</title>"+
-	"<link rel='icon' href='image/icon.png'/>";
+// var head = 
+// 	"<link rel='stylesheet' type='text/css' href='style/style.css'/>" +
+// 	"<meta name='viewport' content='width=device-width, initial-sclae=1.0'/>" +
+// 	"<title>" + title + "</title>"+
+// 	"<link rel='icon' href='image/icon.png'/>";
 
-if(window.outerWidth <= window.outerHeight){
-	head += "<link rel='stylesheet' type='text/css' href='style/styleMobile.css'/>";
-}
+// if(window.outerWidth <= window.outerHeight){
+// 	head += "<link rel='stylesheet' type='text/css' href='style/styleMobile.css'/>";
+// }
 
-var urlmenu = ["index", "android", "pc"];
-var strmenu = ["Main", "Android", "PC"];
-var menu = "<ul>";
-for(var m = 0; m < urlmenu.length; m++){
-	menu+= "<li><a ";
-	if(urlmenu[m] == menuitem) menu += "id='menuhere'>";
-	else menu += "href='" + urlmenu[m] + ".html'>";
-	menu+=strmenu[m] + "</a></li>";
-}
-menu+="</ul>";
+// var urlmenu = ["index", "android", "pc"];
+// var strmenu = ["Main", "Android", "PC"];
+// var menu = "<ul>";
+// for(var m = 0; m < urlmenu.length; m++){
+// 	menu+= "<li><a ";
+// 	if(urlmenu[m] == menuitem) menu += "id='menuhere'>";
+// 	else menu += "href='" + urlmenu[m] + ".html'>";
+// 	menu+=strmenu[m] + "</a></li>";
+// }
+// menu+="</ul>";
 
+
+// $.getJSON("content/content.json", function(json) {
+// 	contentjson = json;
+//     console.log(json); // this will show the info it in firebug console
+// });
+// readTextFile("content/content.json")
+
+// var jer = JSON.parse(content);
+// alert(jer);
 var obj = JSON.parse(readTextFile("content/content.json"));
 var content = "";
 var name = "";
@@ -41,6 +50,6 @@ for(var i = obj.content.length-1; i > -1; i--){
 		"<img src='image/"+name+".jpg'/></a></div>";
 }
 
-document.head.innerHTML = head;
-document.getElementById("menu").innerHTML = menu;
+// document.head.innerHTML = head;
+// document.getElementById("menu").innerHTML = menu;
 document.getElementById("content").innerHTML = content;
