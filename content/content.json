@@ -4,6 +4,6 @@
 		{"platform": "pc", "name":"SwingChat", "version":"001", "url":"repository/SwingChat.jar"},
 		{"platform": "index", "name":"My library", "version":"0", "url":"https://goo.gl/3kamvb"},
 		{"platform": "android", "name":"Drop", "version":"1.0", "url":"repository/drop-1.0.apk"},
-		{"platform": "pc", "name":"DropPC", "version":"1.0", "url":"repository/drop-1.0.jar"}
+		{"platform": "pc", "name":"Drop", "version":"1.0", "url":"repository/drop-1.0.jar"}
 	]
 }
